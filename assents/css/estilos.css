@@ -1,0 +1,17 @@
+:root {
+  --colorFondo: #f5f5f5;
+  --backgroundFondo: #ffffff;
+  --colorFondoContacto: #eaf2fd;
+  --colorBoton: #2a7ae4;
+  --colorBotonTexto: #ffffff;
+  --colorVerProducto: #2a7ae4;
+  --colorTexto: #464646;
+  --ColorError: #e40c0c;
+  --ColorAprobado: #40e42a;
+  --ColorBarra:  #6599dd;
+  --BackgroundLogin: #E5E5E5;
+}
+
+body{
+    height: 100vh;
+}

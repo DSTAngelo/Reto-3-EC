@@ -1,0 +1,55 @@
+/* ------------- Logo ------------- */
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    /* -----------Logo ------------- */
+    header i.fa-position{
+        margin-right: 100px;
+    }
+
+    /* -----------Login------------- */
+    section .login{
+        height: 500px;
+    }
+    section .titulo__login{
+        font: 700 24px 'Relaway', sans-serif;
+    }
+    section .estilo-login{
+        width: 60%;
+    }
+    section .boton__login{
+        width: 60%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 1024px) {
+    header {
+        justify-content: center;
+        height: 100px;
+    }
+
+    header .logo__head{
+        width: 60%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1280px) {
+      section .estilo-login{
+        width: 50%;
+    }
+    section .boton__login{
+        width: 50%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1366px) {
+      section .estilo-login{
+        width: 40%;
+    }
+    section .boton__login{
+        width: 40%;
+    }
+}

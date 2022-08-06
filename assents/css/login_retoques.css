@@ -1,0 +1,83 @@
+/* ---------------Login Logo------------------- */
+
+header {
+    justify-content: space-between;
+    padding: 10px;
+}
+
+
+header .logo__boton{
+    display: none;
+}
+
+header i.fa-position{
+    display: none;
+    margin-right: 15px;
+}
+/* ---------------Barra------------------- */
+
+/*----------Barra Agregar Productos ----------*/
+section .barra__login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 3%;
+    padding: 20px ;
+    background: var( --ColorBarra);
+}
+section .titulo_login{
+    font: 700 18px 'Relaway', sans-serif;
+    color: var(--colorBotonTexto);
+}
+
+/* ---------------Login------------------- */
+
+section .login{
+    background: var(--BackgroundLogin);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+
+section .titulo__login{
+    font: 700 18px 'Relaway', sans-serif;
+}
+
+section .estilo-login{
+    border: none;
+    border-radius: 5px;
+    height: 46px;
+    width: 80%;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+section .estilo-login::placeholder{
+    color: var(--ColorBarra);
+    font: 400 12px 'Relaway', sans-serif;
+}
+
+section .boton__login{
+    width: 80%;
+    height: 46px;
+    background: var(--colorBoton);
+    color: var( --colorBotonTexto);
+    font: 700 16px 'Relaway', sans-serif;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.alerta{
+    width: 100%;
+    color: var(--colorBoton);
+    font: 700 16px 'Relaway', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}

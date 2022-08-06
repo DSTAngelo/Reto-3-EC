@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./assents/css/estilos.css" rel="stylesheet">
+    <link href="./assents/css/logo.css" rel="stylesheet">
+    <link href="./assents/css/agregar-productos.css" rel="stylesheet">
+    <link href="./assents/css/zona_informacion.css" rel="stylesheet">
+    <link href="./assents/css/footer.css" rel="stylesheet">
+    <link href="./assents/css/responsive.css" rel="stylesheet">
+    <link href="./assents/css/responsive-agregar.css" rel="stylesheet">
+    <link href="./assents/css/reset.css" rel="stylesheet">
+    <link href="./assents/css/normalize.css" rel="stylesheet">
+    <!-- Font icons-->
+        <script src="https://kit.fontawesome.com/b995bfc617.js" crossorigin="anonymous"></script>
+    <title>Agregar Productos</title>
+</head>
+    <body>
+        <header>
+            <img src="./assents/img/Logo.svg" alt="" class="logo__head" onclick="navegacion_Link()">
+            <button type="submit" id="admin" class="logo__boton" onclick= "navAdmin()">Administrador</button>
+            <i class="fa-solid fa-magnifying-glass fa-position"></i>
+        </header>
+        <section class="buscador">
+            <div class="caja">
+                <input type="text" class="logo__buscador" name="buscador" placeholder="Que Desea Buscar ?">
+            </div>
+        </section>
+        <section class="barra_agregar">
+            <div class="barra__agregar-productos">
+                <p class="titulo_agregar-producto">Agregar Nuevo Producto</p>
+            </div>
+        </section>
+ <!-- Agregar Productos        -->
+        <section class="agregar">
+            <div class="contenedor__formulario">
+  <!-- agregar imagen               -->
+                <div class="contenedor__imagen">
+                    <div class="drop-area">
+                        <i class="fa-solid fa-image"></i>
+                        <h2 >Arrastre para Agregar Imagen de Producto</h2>
+                        <button ">Busque en su PC</button>
+                        <input type="file" name="" id="input-file" hidden multiple>
+                    </div>
+                </div>
+                
+ <!-- agregar formulario -->
+                <form id="formulario__login" class="formulario__login" data-form> 
+                    <div class="form-campos">
+                        <span id="preview" name="imagen"></span>
+                        <input type="text" name="Agregar-imagen" id="campo_imagen" class="campo_imagen input__caja" placeholder="url" data-imagen hidden>
+                        <input type="text" name="Agregar-nombre" id="campo_nombre" class="campo_nombre input__caja" maxlength="20" placeholder="Nombre del Producto" data-nombre>
+                        <input type="number" name="Agregar-precio" id="campo_precio" class="campo_precio input__caja" placeholder="Precio del Producto" data-precio>
+                        <input type="text" name="Agregar-categoria" id="campo_categoria" class="campo_categoria input__caja" placeholder="Categoria" data-categoria>
+                        <input type="url" name="Agregar-url" id="campo_url" class="campo_url input__caja" placeholder="Url  inicia por http://" data-link>
+                        <textarea  name="descripcion" id="formulario__textarea" class="campo_descripcion input__textarea" rows="5" cols="38" 
+                            placeholder="Descripción del producto" maxlength="150" data-descripcion></textarea>
+                        <button type="submit" id="boton__agregar" class="boton__agregar">Agregar Producto</button>
+                        <span id="status" class="status"></span>
+                    </div>
+                </form>
+            </div>
+        </section>
+<!-- final Agregar -->
+
+        <section class="zona__informacion">
+            <div class="zona__uno">
+                <img src="./assents/img/Logo.svg" alt="" class="zona__imagen">
+                <p class="zona__text-1">Quienes Somos</p>
+                <p class="zona__text-2">Política de privacidad</p>
+                <p class="zona__text-2">Programa de fidelidad</p>
+                <p class="zona__text-2">Nuestras tiendas</p>
+                <p class="zona__text-2">Quiero ser franquiciado</p>
+                <p class="zona__text-2">Anúncie aquí</p>
+            </div>
+            <form action="" id="zona__contacto" class="zona__contacto">
+                <div class="zona__dos">
+                    <p class="titulo__contacto">Hable con nosotros</p>
+                    <input type="text" id="nombre_input" class="nombre__contacto estilo-contacto" name="nombre" placeholder="Nombre">
+                    <textarea id="mensaje_text" class="mensaje__contacto estilo-contacto" rows="5" cols="40" name="mensaje" placeholder="Escribe tu Mensaje" maxlength="300"></textarea>
+                    <button id= "boton__contacto" type="submit" class="boton__contacto">Enviar Mensaje</button>
+                    <span id="label_contenido" class="comprobacion-contacto"></span>
+                </div>
+            </form>
+        </section>
+        <footer>
+            <p class="desarrollado">Desarrollado por @DST-Angel 2022</p>
+        </footer>
+
+        <script type="module" src="/controller/crear-productos.js"></script>
+        <script type="module" src="./js/productos.js"></script>
+        <script src="/js/formulario.js"></script>
+        <script src="./js/navegacion.js"></script>
+
+    </body>
+</html>

@@ -1,0 +1,84 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;  
+    height: 50px;
+    z-index: 1;
+    margin: 5px;
+}
+
+header .logo__head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+    cursor: pointer;
+}
+
+header .logo__boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 80%;
+    background: var(--colorBoton);
+    color: var( --colorBotonTexto);
+    border-radius: 5px;
+    border: 1px solid var(--colorBoton);
+
+}
+ /*Boton*/
+header .logo__busqueda{  
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    height: 80%;
+    background: var(--backgroundFondo);
+    color: var( --colorBotonTexto);
+    border-radius: 5px;
+    border: 0;
+}
+
+
+header i.fa-position{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    color: var(--colorBoton);
+    cursor: pointer;
+}
+
+section .logo__buscador{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 94%;
+    height: 100%;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    background: var(--colorFondo);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+section .logo__buscador{
+      
+        font: 500 18px 'Relaway', sans-serif;
+        width: calc(99% - 10px);
+        height: 50px;
+        margin: 10px;
+        text-align: center;
+    }
+
+    section .logo__buscador::placeholder{
+        color: var(--ColorBarra);
+        font: 400 16px 'Relaway', sans-serif;
+        display: flex;
+        text-align: center;
+
+    }

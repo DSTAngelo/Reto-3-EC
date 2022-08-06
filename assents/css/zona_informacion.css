@@ -1,0 +1,100 @@
+/* ---------Quienes Somos--------------*/
+.zona__informacion{
+    background: var(--colorFondoContacto);
+}
+
+section .zona__uno{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+    align-items: center
+}
+
+section .zona__imagen{
+    margin-bottom: 5%;
+}
+
+section .zona__text-1{
+    font: 500 16px 'Relaway', sans-serif;
+    color: var( --colorTexto);
+    margin-bottom: 10px;;
+}
+
+section .zona__text-2{
+    font: 500 16px 'Relaway', sans-serif;
+    color: var( --colorTexto);
+    margin-bottom: 10px;;
+}
+
+/* ---------Formulario de Contacto--------------*/
+
+section form.zona__contacto{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+    align-items: center;
+}
+
+section .titulo__contacto{
+    font: 700 16px 'Relaway', sans-serif;
+    color: var( --colorTexto);
+    margin-bottom: 7px;;
+}
+
+section .nombre__contacto{
+    font: 400 14px 'Relaway', sans-serif;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+section .mensaje__contacto{
+    font: 400 14px 'Relaway', sans-serif;
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+section .estilo-contacto{
+    border: 1px solid var(--colorBoton);
+    border-radius: 5px;
+}
+
+section .boton__contacto{
+    width: 100%;
+    height: 50px;
+    background: var(--colorBoton);
+    color: var( --colorBotonTexto);
+    font: 700 16px 'Relaway', sans-serif;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+
+.input-correcto{
+  color:  var(--ColorAprobado);
+
+}
+.input-incorrecto{
+   color: var(--ColorError);
+   
+}
+
+.comprobacion-contacto{
+    width: 100%;
+    color: var(--colorBoton);
+    font: 700 16px 'Relaway', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+

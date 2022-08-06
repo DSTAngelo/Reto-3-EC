@@ -1,0 +1,57 @@
+section .cabecera{
+    max-width: 100%;
+    height: 180px;
+    position: relative;
+}
+
+section .imagen__cabecera{
+    display: flex;
+    justify-content: center;
+    height: 180px;
+    width: 100%;
+    filter: brightness(0.5);
+    -webkit-filter: brightness(0.5);
+}
+
+section div.contenido__cabecera{
+    position:absolute;
+    top: 60%;
+    left: 5%;
+    transform: translate(2%, -5%);
+    -webkit-transform: translate(2%, -40%);
+    -moz-transform: translate(2%, -5%);
+    -ms-transform: translate(2%, -5%);
+    -o-transform: translate(2%, -5%);
+}
+
+section .parrafo__cabecera{
+    font: 700 18px 'Relaway', sans-serif;
+    color: var(--colorBotonTexto);
+    margin-bottom: 5px;
+
+}
+
+section .parrafo__cabecera:nth-child(2){
+    font: 600 12px 'Relaway', sans-serif;
+}
+
+section .boton__cabecera{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 600 14px 'Relaway', sans-serif;
+    width: 118px;
+    height: 35px;
+    background: var(--colorBoton);
+    color: var( --colorBotonTexto);
+    border-radius: 5px;
+    border: 1px solid var(--colorBoton);
+}
+
+section .nav{
+    color: var(--colorBotonTexto);
+    font: 600 14px 'Relaway', sans-serif;
+    text-decoration: none;
+}
+
+

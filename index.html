@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./assents/css/estilos.css" rel="stylesheet">
+    <link href="./assents/css/logo.css" rel="stylesheet">
+    <link href="./assents/css/cabecera.css" rel="stylesheet">
+    <link href="./assents/css/productos.css" rel="stylesheet">
+    <link href="./assents/css/zona_informacion.css" rel="stylesheet">
+    <link href="./assents/css/footer.css" rel="stylesheet">
+    <link href="./assents/css/responsive.css" rel="stylesheet">
+    <link href="./assents/css/reset.css" rel="stylesheet">
+    <link href="./assents/css/normalize.css" rel="stylesheet">
+    <!-- Font icons-->
+        <script src="https://kit.fontawesome.com/b995bfc617.js" crossorigin="anonymous"></script>
+    <title>Alura Geek Store</title>
+</head>
+    <body>
+        <header>
+            <img src="./assents/img/Logo.svg" alt="" class="logo__head">
+            <button type="submit" class="logo__boton" onclick="navegarLogin()">Login</button>
+            <button type="submit" class="logo__busqueda" onclick="show()"><i class="fa-solid fa-magnifying-glass fa-position"></i></button> 
+        </header>
+        <section class="buscador">
+            <div class="caja">
+                <input type="text" id ="myLogo"class="logo__buscador" name="buscador" placeholder="Que Desea Buscar ?">
+            </div>
+        </section>
+        <section>
+            <div class="cabecera">
+                <img src="./assents/img/Cabecera.png" alt="" class="imagen__cabecera">
+                <div class="contenido__cabecera">
+                    <p class="parrafo__cabecera">Febrero Promocional</p>
+                    <p class="parrafo__cabecera">Productos selecionados con 33% de descuento</p>
+                    <button type="submit" class="boton__cabecera"><a class="nav" href="#consolas">Ver Consolas</button>
+                </div>
+            </div>
+        </section>
+<!-- Primer Barra -->
+        <section class="barra">
+            <div class="barra__productos">
+                <p class="titulo__producto">Star Wars</p>
+                <button type="submit" class="ver__todo" onclick="productos()"> Ver Todo <i class="fa-solid fa-arrow-right-long flecha"></i></button>
+            </div>
+        </section>
+        <section class="tarjetas_productos">
+            <div class="contenedor__general">
+                <div class="card-producto" datos-productos>
+                </div>
+            </div>
+        </section>
+<!-- segunda barra -->
+        <section class="barra" id="consolas">
+            <div class="barra__productos">
+                <p class="titulo__producto">Consolas</p>
+                <button type="submit" class="ver__todo">
+                    Ver Todo
+                    <i class="fa-solid fa-arrow-right-long flecha"></i>
+                </button>
+            </div>
+        </section>
+<!-- Tercera Barra -->
+        <section class="barra">
+            <div class="barra__productos">
+                <p class="titulo__producto">Diversos</p>
+                <button type="submit" class="ver__todo">
+                    Ver Todo
+                    <i class="fa-solid fa-arrow-right-long flecha"></i>
+                </button>
+            </div>
+        </section>
+
+<!-- Zona Informacion -->
+
+        <section class="zona__informacion">
+            <div class="zona__uno">
+                <img src="./assents/img/Logo.svg" alt="" class="zona__imagen">
+                <p class="zona__text-1">Quienes Somos</p>
+                <p class="zona__text-2">Política de privacidad</p>
+                <p class="zona__text-2">Programa de fidelidad</p>
+                <p class="zona__text-2">Nuestras tiendas</p>
+                <p class="zona__text-2">Quiero ser franquiciado</p>
+                <p class="zona__text-2">Anúncie aquí</p>
+            </div>
+            <form action="" id="zona__contacto" class="zona__contacto">
+                <div class="zona__dos">
+                    <p class="titulo__contacto">Hable con nosotros</p>
+                    <input type="text" id="nombre_input" class="nombre__contacto estilo-contacto" name="nombre" placeholder="Nombre">
+                    <textarea id="mensaje_text" class="mensaje__contacto estilo-contacto" rows="5" cols="40" name="mensaje" placeholder="Escribe tu Mensaje" maxlength="300"></textarea>
+                    <button id= "boton__contacto" type="submit" class="boton__contacto">Enviar Mensaje</button>
+                    <span id="label_contenido" class="comprobacion-contacto">---</span>
+                </div>
+            </form>
+        </section>
+        <footer>
+            <p class="desarrollado">Desarrollado por @DST-Angel 2022</p>
+        </footer>
+<script src="./js/navegacion.js"></script>
+
+        <script type ="module" src="/controller/productos-controller.js"></script>
+        <script src="/js/index.js"></script>
+        <script src="/js/formulario.js"></script>
+        <script src="/js/busquedas.js"></script>
+        
+    </body>
+</html>

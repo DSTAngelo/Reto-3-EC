@@ -1,0 +1,80 @@
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    /* -----------Logo ------------- */
+    header i.fa-position{
+        margin-right: 100px;
+    }
+
+    /* -----------Barra Todos los Productos------------- */
+
+    section .barra__todos-productos{
+        height: 70px;
+    }
+    section .titulo__todos-producto{
+        font: 700 18px 'Relaway', sans-serif;
+    }
+    section .ver__todo-productos{
+        width: 20%;
+        height: 40px;
+        font: 400 14px 'Relaway', sans-serif;
+    }
+
+
+}
+
+/* Large devices (laptops/desktops, 1024px and up) */
+@media only screen and (min-width: 1024px) {
+    /* -----------Logo ------------- */
+    header {
+        justify-content: center;
+        height: 100px;
+    }
+
+    header .logo__head{
+        width: 60%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1280px) {
+   /* -----------Barra Todos los Productos------------- */
+    section .barra__todos-productos{
+        height: 80px;
+    }
+    section .titulo__todos-producto{
+        font: 700 24px 'Relaway', sans-serif;
+    }
+    section .ver__todo-productos{
+        width: 20%;
+        height: 50px;
+        font: 400 16px 'Relaway', sans-serif;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1440px and up) */
+@media only screen and (min-width: 1440px) {
+    section .barra__todos-productos{
+        margin-bottom: 60px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1920px and up) */
+@media only screen and (min-width: 1920px) {
+    header {
+        height: 200px;
+    }
+    /* -----------Barra Todos los Productos------------- */
+
+    section .barra__todos-productos{
+        height: 150px;
+        margin-bottom: 60px;
+    }
+    section .titulo__todos-producto{
+        font: 700 40px 'Relaway', sans-serif;
+    }
+    section .ver__todo-productos{
+        width: 20%;
+        height: 80px;
+        font: 400 24px 'Relaway', sans-serif;
+    }
+}

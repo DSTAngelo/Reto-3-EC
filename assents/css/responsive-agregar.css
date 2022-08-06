@@ -1,0 +1,85 @@
+
+/* Large devices (laptops/desktops, 768px and up) */
+@media only screen and (min-width: 768px) {
+    /*------------------Logo-----------------------*/
+        header {
+            height: 80px;
+        }
+
+        .logo__boton{
+            font: 700 16px 'Relaway', sans-serif;
+            height: 40%;
+        }
+    
+    /*------------------Agregar Productos ----------*/
+        section .barra__agregar-productos{
+            height: 70px;
+        }
+
+        section .boton_drop{
+            width: 40%;
+            height: 60px;
+        }
+
+        section .boton__agregar{
+            width: 40%;
+            height: 60px;
+        }
+
+
+
+}
+
+/* Large devices (laptops/desktops, 1024px and up) */
+@media only screen and (min-width: 1024px) {
+ /* -----------Logo ------------- */
+    header {
+        justify-content: center;
+        height: 100px;
+        padding: 10px;
+    }
+
+    header .logo__head{
+        width: 60%;
+    }
+
+    section .logo__buscador{
+        display: none;
+    }
+    /*------------------Agregar Productos ----------*/
+        section .barra__agregar-productos{
+            height: 70px;
+        }
+
+        section .drop-area{
+            width: 60%;
+        }
+
+        section .boton_drop{
+            width: 40%;
+            height: 60px;
+        }
+
+        section .input__caja{
+            width: 50%;
+        }
+
+        section .input__textarea{
+            width: 50%;
+        }
+
+        section .boton__agregar{
+            width: 40%;
+            height: 60px;
+        }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1280px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1366px and up) */
+@media only screen and (min-width: 1366px) {
+
+}
